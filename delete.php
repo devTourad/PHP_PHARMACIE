@@ -16,7 +16,19 @@ $stmt->bindParam(':id', $id);
 
 if ($stmt->execute()) {
     header("Location: medicament.php");
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
+    $message[] = 'product has been deleted';
+ }else{
+    header("Location: medicament.php");
+    $message[] = 'product could not be deleted';
+ };
+
+
+ if(isset($message)){
+    foreach($message as $message){
+       echo '<div class="message"><span>'.$message.'</span> <i class="fas fa-times" onclick="this.parentElement.style.display = `none`;"></i> </div>';
+    };
+ };
+ 
+
+ 
 ?>

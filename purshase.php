@@ -14,7 +14,7 @@ include 'includes/header.php';
 <head>
     <title>purshase medicament</title>
     <link rel="stylesheet" href="csss/styles.css">
-    
+
 </head>
 <body>
 <div class="container">
@@ -24,8 +24,8 @@ include 'includes/header.php';
             <thead>
                 <tr>
                     <th>Name client</th>
+                    <th>Telephone client</th>
                     <th>Name medicament</th>
-                    <th>Description</th>
                     <th>Price</th>
                     <th>Quantite</th>
                     <th>date de comande</th>

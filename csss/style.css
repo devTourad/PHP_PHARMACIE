@@ -1,7 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
 }
 
 body {
@@ -113,12 +118,17 @@ a:hover {
         padding: 10px;
     }
 }
+
 .container form .error-msg{
-    margin:10px 0;
-    display: block;
-    background: rgb(255, 0, 51);
-    color:#fff;
-    border-radius: 5px;
-    font-size: 20px;
-    padding:10px;
- }
+margin:10px 0;
+display: block;
+background: rgb(214, 101, 125);
+color:#fff;
+border-radius: 5px;
+font-size: 20px;
+padding:10px;
+}
+
+
+
+
