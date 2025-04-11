@@ -28,17 +28,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="csss/style.css">
-    <style>
-        .container form .error-msg{
-    margin:10px 0;
-    display: block;
-    background: rgb(214, 101, 125);
-    color:#fff;
-    border-radius: 5px;
-    font-size: 20px;
-    padding:10px;
- }
-    </style>
+ 
+
 </head>
 <body>
     <div class="container">

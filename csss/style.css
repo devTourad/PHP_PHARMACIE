@@ -92,6 +92,24 @@ a:hover {
     margin-top: 10px;
     text-align: center;
 }
+
+.container form .error-msg{
+    background-color:#b554208c;
+    position: sticky;
+    top:0; left:0;
+    z-index: 1;
+    padding:1.5rem 2rem;
+    margin:0 auto;
+    max-width: 1200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:1.5rem;
+    color:#a54040be;
+    font-size: 20px;
+    }
+    
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
@@ -119,15 +137,6 @@ a:hover {
     }
 }
 
-.container form .error-msg{
-margin:10px 0;
-display: block;
-background: rgb(214, 101, 125);
-color:#fff;
-border-radius: 5px;
-font-size: 20px;
-padding:10px;
-}
 
 
 

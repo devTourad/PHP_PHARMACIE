@@ -32,7 +32,7 @@ $items = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <input id="search" class="search" type="text" placeholder="Search un medicament....">
         </div>
         <table class="users-table">
-            <thead id="myTable">
+            <thead id="">
                 <tr>
                     <th>Name</th>
                     <th>Description</th>
@@ -42,7 +42,7 @@ $items = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <th>Purshase</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="myTable">
                 <?php foreach ($items as $item): ?>
             <tr>
                 <td><?php echo ($item['name']); ?></td>

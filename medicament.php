@@ -22,37 +22,7 @@ $items = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <title>Search medicament</title>
     <link rel="stylesheet" href="csss/styles.css">
     <style>
-         .message{
-  background-color:#2177d48c;
-  position: sticky;
-  top:0; left:0;
-  z-index: 1;
-  border-radius: .5rem;
-  padding:1.5rem 2rem;
-  margin:0 auto;
-  max-width: 1200px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap:1.5rem;
-}
-
-.message span{
-  font-size: 16px;
-  color:#333;
-}
-
-.message i{
-  font-size: 2rem;
-  color:#333;
-  cursor: pointer;
-}
-
-.message i:hover{
-  color:red;
-}
-
+       
     </style>
 </head>
 <body>
